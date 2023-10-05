@@ -1,0 +1,88 @@
+body {
+	background-image: url("./kepek/black.png");
+	background-repeat: no-repeat;
+	font-family: Arial, Verdana, sans-serif;
+	color: black;
+	margin: 0;
+	padding: 0;
+}
+
+#tarolo {
+	max-width: 900px;
+	width: 90%;
+	margin: auto;
+	background-color: rgb(210, 210, 210);
+}
+
+.elem {
+	padding: 5px;
+}
+
+.fejlec img {
+	width: 100%;
+}
+
+.jobb {
+	float: right;
+	width: 150px;
+	margin-bottom: 2px;
+	margin-left: 5px;
+}
+
+.torles {
+	clear: both;
+}
+
+.forma {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.forma a {
+	text-decoration: none;
+	background-color: rgb(87, 87, 87);
+	color: white;
+	font-weight: bold;
+	padding: 10px;
+	display: block;
+}
+
+.forma a:link {
+	background-color: rgb(87, 87, 87);
+}
+
+.forma a:visited {
+	background-color: rgb(87, 87, 87);
+}
+
+.forma a:hover {
+	background-color: orange;
+}
+
+.forma a:active {
+	background-color: rgb(191, 95, 0);
+}
+
+.negyzet {
+	list-style-type: square;
+	font-size: 10px;
+}
+
+#lab {
+	background-color: orange;
+	padding: 2px;
+}
+
+#lab p {
+	text-align: center;
+}
+
+h1 {
+	font-size: 15px;
+}
+
+p {
+	text-align: justify;
+	font-size: 10px;
+}
